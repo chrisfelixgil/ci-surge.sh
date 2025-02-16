@@ -1,0 +1,21 @@
+name: Chris Castle Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Build and Deploy
+      run: |
+        npm install --global surge
+        surge token ${{ secrets.SURGE_API_KEY }}
+
+        surge --project ./ --domain chriscastle.surge.sh

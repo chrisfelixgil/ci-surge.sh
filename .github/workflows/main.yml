@@ -17,7 +17,7 @@ jobs:
       run: |
         npm install --global surge
         
-        surge login --token ${{ secrets.SURGE_API_KEY }}
+        surge token 4361dd61e536094e178da553f36e25ce
 
         surge whoami
 

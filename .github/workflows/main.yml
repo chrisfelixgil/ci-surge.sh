@@ -16,7 +16,8 @@ jobs:
     - name: Build and Deploy
       run: |
         npm install --global surge
-        surge token ${{ secrets.SURGE_API_KEY }}
+        
+        surge login --token ${{ secrets.SURGE_API_KEY }}
 
         surge whoami
 

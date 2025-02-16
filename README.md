@@ -20,7 +20,7 @@ A continuación, se muestran capturas de pantalla de la web en funcionamiento:
 ## 🚀 Instrucciones de Uso
 1. 🛠️ Clona este repositorio.
 ```bash
-   git clone https://github.com/chrisfelixgil/tarea-1-programacion-web.git
+   git clone https://github.com/chrisfelixgil/ci-surge.sh.git
    ```
 
 ## 💡 Tecnologías Utilizadas

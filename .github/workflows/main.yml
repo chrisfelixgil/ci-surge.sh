@@ -18,4 +18,6 @@ jobs:
         npm install --global surge
         surge token ${{ secrets.SURGE_API_KEY }}
 
+        surge whoami
+
         surge --project ./ --domain chriscastle.surge.sh

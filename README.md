@@ -14,8 +14,7 @@ A continuación, se muestran capturas de pantalla de la web en funcionamiento:
 
 1. ![Captura 1](/img/web1.png)
 2. ![Captura 2](/img/web2.png)
-3. ![Captura 3](/img/web1.png)
-4. ![Captura 4](/img/web2.png)
+3. ![Captura 3](/img/deploy1.png)
 
 ## 🚀 Instrucciones de Uso
 1. 🛠️ Clona este repositorio.
